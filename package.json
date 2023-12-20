@@ -1,0 +1,51 @@
+{
+  "name": "jindal-api",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --skipLibCheck",
+    "start": "node dist/src/server.js",
+    "dev": "tsnd --respawn src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://admin:pdl44ndo6bh3eunafqn364y2dmwmfommnr3dv2d25totyj63rejq@dev.azure.com/revolite/Jindal/_git/jindal-api"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.4",
+    "@types/node": "^18.11.16",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "fast-csv": "^4.3.6",
+    "graphql": "^16.6.0",
+    "graphql-type-datetime": "^0.2.4",
+    "graphql-type-json": "^0.3.2",
+    "jwt-simple": "^0.5.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mssql": "^9.0.1",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.2",
+    "pdfkit-table": "^0.1.99",
+    "routing-controllers": "^0.9.0",
+    "sequelize": "^6.27.0",
+    "sequelize-typescript": "^2.1.5",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typedi": "^0.10.0",
+    "typescript": "^4.9.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.5.2"
+  }
+}
