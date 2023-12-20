@@ -1,0 +1,3430 @@
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60922,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T00:35:40.000Z,
+  updatedOn: 2023-12-20T00:35:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60922;
+result {
+  id: 60922,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:35:34.000Z,
+  endTime: 2023-12-20T00:35:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:35:34.000Z,
+  updatedOn: 2023-12-20T00:35:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60922,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:35:34.000Z,
+  endTime: 2023-12-20T00:35:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:35:34.000Z,
+  updatedOn: 2023-12-20T00:35:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T00:36:00.241Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:36:20.254Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:36:40.268Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:37:00.278Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:37:20.289Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:37:40.297Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:38:00.304Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:38:20.317Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:38:40.330Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:39:00.344Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:39:20.354Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:39:40.365Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:40:00.380Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:40:20.391Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (556ffa6802d217d2d248): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:40:34.000Z,
+  createdOn: 2023-12-20T00:40:34.000Z
+}
+Executing (556ffa6802d217d2d248): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60923,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:40:34.000Z,
+  createdOn: 2023-12-20T00:40:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60923,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:40:34.000Z,
+  createdOn: 2023-12-20T00:40:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (556ffa6802d217d2d248): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T00:40:40.405Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60923,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:40:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:40:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60923,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:40:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:40:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60923,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60923,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T00:40:40.000Z,
+  updatedOn: 2023-12-20T00:40:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60923;
+result {
+  id: 60923,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:40:34.000Z,
+  endTime: 2023-12-20T00:40:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:40:34.000Z,
+  updatedOn: 2023-12-20T00:40:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60923,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:40:34.000Z,
+  endTime: 2023-12-20T00:40:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:40:34.000Z,
+  updatedOn: 2023-12-20T00:40:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T00:41:00.416Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:41:20.428Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:41:40.436Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:42:00.445Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:42:20.458Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:42:40.471Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:43:00.478Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:43:20.491Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:43:40.502Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:44:00.513Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:44:20.524Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:44:40.533Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:45:00.542Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:45:20.555Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (a5501c1c15c9080a4399): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:45:34.000Z,
+  createdOn: 2023-12-20T00:45:34.000Z
+}
+Executing (a5501c1c15c9080a4399): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60924,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:45:34.000Z,
+  createdOn: 2023-12-20T00:45:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60924,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:45:34.000Z,
+  createdOn: 2023-12-20T00:45:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (a5501c1c15c9080a4399): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T00:45:40.566Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60924,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:45:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:45:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60924,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:45:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:45:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60924,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60924,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T00:45:41.000Z,
+  updatedOn: 2023-12-20T00:45:41.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60924;
+result {
+  id: 60924,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:45:34.000Z,
+  endTime: 2023-12-20T00:45:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:45:34.000Z,
+  updatedOn: 2023-12-20T00:45:41.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60924,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:45:34.000Z,
+  endTime: 2023-12-20T00:45:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:45:34.000Z,
+  updatedOn: 2023-12-20T00:45:41.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T00:46:00.578Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:46:20.589Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:46:40.597Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:47:00.612Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:47:20.621Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:47:40.631Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:48:00.642Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:48:20.655Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:48:40.666Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:49:00.678Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:49:20.688Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:49:40.695Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:50:00.704Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:50:20.717Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (726892f2c0ae78f8a4da): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:50:34.000Z,
+  createdOn: 2023-12-20T00:50:34.000Z
+}
+Executing (726892f2c0ae78f8a4da): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60925,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:50:34.000Z,
+  createdOn: 2023-12-20T00:50:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60925,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:50:34.000Z,
+  createdOn: 2023-12-20T00:50:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (726892f2c0ae78f8a4da): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T00:50:40.735Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60925,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:50:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:50:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60925,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:50:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:50:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60925,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60925,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T00:50:41.000Z,
+  updatedOn: 2023-12-20T00:50:41.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60925;
+result {
+  id: 60925,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:50:34.000Z,
+  endTime: 2023-12-20T00:50:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:50:34.000Z,
+  updatedOn: 2023-12-20T00:50:41.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60925,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:50:34.000Z,
+  endTime: 2023-12-20T00:50:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:50:34.000Z,
+  updatedOn: 2023-12-20T00:50:41.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T00:51:00.743Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:51:20.753Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:51:40.769Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:52:00.782Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:52:20.792Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:52:40.800Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:53:00.811Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:53:20.820Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:53:40.833Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:54:00.845Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:54:20.854Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:54:40.866Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:55:00.880Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:55:20.890Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (de43af44b035f747d77b): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:55:34.000Z,
+  createdOn: 2023-12-20T00:55:34.000Z
+}
+Executing (de43af44b035f747d77b): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60926,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:55:34.000Z,
+  createdOn: 2023-12-20T00:55:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60926,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T00:55:34.000Z,
+  createdOn: 2023-12-20T00:55:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (de43af44b035f747d77b): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T00:55:40.901Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60926,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:55:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:55:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60926,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T00:55:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T00:55:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60926,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60926,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T00:55:41.000Z,
+  updatedOn: 2023-12-20T00:55:41.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60926;
+result {
+  id: 60926,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:55:34.000Z,
+  endTime: 2023-12-20T00:55:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:55:34.000Z,
+  updatedOn: 2023-12-20T00:55:41.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60926,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T00:55:34.000Z,
+  endTime: 2023-12-20T00:55:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T00:55:34.000Z,
+  updatedOn: 2023-12-20T00:55:41.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T00:56:00.913Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:56:20.925Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:56:40.936Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:57:00.951Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:57:20.961Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:57:40.969Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:58:00.980Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:58:20.995Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:58:40.005Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:59:00.018Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:59:20.029Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T00:59:40.039Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:00:00.053Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:00:20.064Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (c5358298c8805122c839): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:00:34.000Z,
+  createdOn: 2023-12-20T01:00:34.000Z
+}
+Executing (c5358298c8805122c839): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60927,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:00:34.000Z,
+  createdOn: 2023-12-20T01:00:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60927,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:00:34.000Z,
+  createdOn: 2023-12-20T01:00:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (c5358298c8805122c839): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:00:40.074Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60927,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:00:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:00:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60927,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:00:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:00:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60927,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60927,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:00:40.000Z,
+  updatedOn: 2023-12-20T01:00:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60927;
+result {
+  id: 60927,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:00:34.000Z,
+  endTime: 2023-12-20T01:00:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:00:34.000Z,
+  updatedOn: 2023-12-20T01:00:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60927,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:00:34.000Z,
+  endTime: 2023-12-20T01:00:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:00:34.000Z,
+  updatedOn: 2023-12-20T01:00:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:01:00.088Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:01:20.096Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:01:40.108Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:02:00.119Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:02:20.131Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:02:40.138Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:03:00.150Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:03:20.157Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:03:40.173Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:04:00.183Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:04:20.195Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:04:40.208Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:05:00.221Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:05:20.231Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (6eb01270f5610e5e7cd0): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:05:34.000Z,
+  createdOn: 2023-12-20T01:05:34.000Z
+}
+Executing (6eb01270f5610e5e7cd0): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60928,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:05:34.000Z,
+  createdOn: 2023-12-20T01:05:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60928,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:05:34.000Z,
+  createdOn: 2023-12-20T01:05:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (6eb01270f5610e5e7cd0): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:05:40.244Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60928,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:05:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:05:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60928,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:05:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:05:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60928,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60928,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:05:40.000Z,
+  updatedOn: 2023-12-20T01:05:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60928;
+result {
+  id: 60928,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:05:34.000Z,
+  endTime: 2023-12-20T01:05:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:05:34.000Z,
+  updatedOn: 2023-12-20T01:05:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60928,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:05:34.000Z,
+  endTime: 2023-12-20T01:05:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:05:34.000Z,
+  updatedOn: 2023-12-20T01:05:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:06:00.255Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:06:20.267Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:06:40.279Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:07:00.298Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:07:20.310Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:07:40.325Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:08:00.336Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:08:20.344Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:08:40.357Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:09:00.363Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:09:20.378Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:09:40.390Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:10:00.400Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:10:20.413Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (9fb74a80774aa6df4a60): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:10:34.000Z,
+  createdOn: 2023-12-20T01:10:34.000Z
+}
+Executing (9fb74a80774aa6df4a60): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60929,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:10:34.000Z,
+  createdOn: 2023-12-20T01:10:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60929,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:10:34.000Z,
+  createdOn: 2023-12-20T01:10:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (9fb74a80774aa6df4a60): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:10:40.421Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60929,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:10:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:10:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60929,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:10:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:10:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60929,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60929,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:10:40.000Z,
+  updatedOn: 2023-12-20T01:10:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60929;
+result {
+  id: 60929,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:10:34.000Z,
+  endTime: 2023-12-20T01:10:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:10:34.000Z,
+  updatedOn: 2023-12-20T01:10:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60929,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:10:34.000Z,
+  endTime: 2023-12-20T01:10:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:10:34.000Z,
+  updatedOn: 2023-12-20T01:10:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:11:00.429Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:11:20.439Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:11:40.451Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:12:00.466Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:12:20.478Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:12:40.485Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:13:00.499Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:13:20.514Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:13:40.527Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:14:00.536Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:14:20.549Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:14:40.562Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:15:00.573Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:15:20.587Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (5ed516a116772b031d6a): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:15:34.000Z,
+  createdOn: 2023-12-20T01:15:34.000Z
+}
+Executing (5ed516a116772b031d6a): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60930,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:15:34.000Z,
+  createdOn: 2023-12-20T01:15:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60930,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:15:34.000Z,
+  createdOn: 2023-12-20T01:15:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (5ed516a116772b031d6a): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:15:40.596Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60930,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:15:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:15:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60930,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:15:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:15:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60930,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60930,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:15:41.000Z,
+  updatedOn: 2023-12-20T01:15:41.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60930;
+result {
+  id: 60930,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:15:34.000Z,
+  endTime: 2023-12-20T01:15:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:15:34.000Z,
+  updatedOn: 2023-12-20T01:15:41.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60930,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:15:34.000Z,
+  endTime: 2023-12-20T01:15:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:15:34.000Z,
+  updatedOn: 2023-12-20T01:15:41.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:16:00.605Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:16:20.616Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:16:40.630Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:17:00.645Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:17:20.660Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:17:40.673Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:18:00.684Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:18:20.694Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:18:40.708Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:19:00.720Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:19:20.730Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:19:40.741Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:20:00.755Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:20:20.769Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (f316b0a7473ada1db938): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:20:34.000Z,
+  createdOn: 2023-12-20T01:20:34.000Z
+}
+Executing (f316b0a7473ada1db938): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60931,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:20:34.000Z,
+  createdOn: 2023-12-20T01:20:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60931,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:20:34.000Z,
+  createdOn: 2023-12-20T01:20:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (f316b0a7473ada1db938): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:20:40.782Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60931,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:20:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:20:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60931,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:20:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:20:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60931,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60931,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:20:41.000Z,
+  updatedOn: 2023-12-20T01:20:41.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60931;
+result {
+  id: 60931,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:20:34.000Z,
+  endTime: 2023-12-20T01:20:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:20:34.000Z,
+  updatedOn: 2023-12-20T01:20:41.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60931,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:20:34.000Z,
+  endTime: 2023-12-20T01:20:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:20:34.000Z,
+  updatedOn: 2023-12-20T01:20:41.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:21:00.798Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:21:20.813Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:21:40.822Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:22:00.835Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:22:20.844Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:22:40.857Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:23:00.866Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:23:20.877Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:23:40.891Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:24:00.901Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:24:20.912Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:24:40.926Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:25:00.940Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:25:20.948Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (e64688cea67036cdba07): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:25:34.000Z,
+  createdOn: 2023-12-20T01:25:34.000Z
+}
+Executing (e64688cea67036cdba07): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60932,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:25:34.000Z,
+  createdOn: 2023-12-20T01:25:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60932,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:25:34.000Z,
+  createdOn: 2023-12-20T01:25:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (e64688cea67036cdba07): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:25:40.964Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60932,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:25:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:25:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60932,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:25:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:25:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60932,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60932,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:25:41.000Z,
+  updatedOn: 2023-12-20T01:25:41.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60932;
+result {
+  id: 60932,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:25:34.000Z,
+  endTime: 2023-12-20T01:25:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:25:34.000Z,
+  updatedOn: 2023-12-20T01:25:41.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60932,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:25:34.000Z,
+  endTime: 2023-12-20T01:25:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:25:34.000Z,
+  updatedOn: 2023-12-20T01:25:41.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:26:00.974Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:26:20.985Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:26:40.997Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:27:00.010Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:27:20.020Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:27:40.036Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:28:00.045Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:28:20.054Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:28:40.061Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:29:00.076Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:29:20.089Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:29:40.099Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:30:00.110Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:30:20.123Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (6db5a00c1b9ecf02062a): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:30:34.000Z,
+  createdOn: 2023-12-20T01:30:34.000Z
+}
+Executing (6db5a00c1b9ecf02062a): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60933,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:30:34.000Z,
+  createdOn: 2023-12-20T01:30:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60933,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:30:34.000Z,
+  createdOn: 2023-12-20T01:30:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (6db5a00c1b9ecf02062a): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:30:40.137Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60933,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:30:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:30:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60933,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:30:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:30:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60933,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60933,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:30:40.000Z,
+  updatedOn: 2023-12-20T01:30:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60933;
+result {
+  id: 60933,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:30:34.000Z,
+  endTime: 2023-12-20T01:30:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:30:34.000Z,
+  updatedOn: 2023-12-20T01:30:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60933,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:30:34.000Z,
+  endTime: 2023-12-20T01:30:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:30:34.000Z,
+  updatedOn: 2023-12-20T01:30:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:31:00.149Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:31:20.158Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:31:40.168Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:32:00.180Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:32:20.196Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:32:40.207Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:33:00.219Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:33:20.229Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:33:40.236Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:34:00.247Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:34:20.254Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:34:40.269Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:35:00.281Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:35:20.292Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (458d97e01ffdaf2c0eee): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:35:34.000Z,
+  createdOn: 2023-12-20T01:35:34.000Z
+}
+Executing (458d97e01ffdaf2c0eee): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60934,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:35:34.000Z,
+  createdOn: 2023-12-20T01:35:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60934,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:35:34.000Z,
+  createdOn: 2023-12-20T01:35:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (458d97e01ffdaf2c0eee): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:35:40.304Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60934,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:35:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:35:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60934,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:35:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:35:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60934,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60934,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:35:40.000Z,
+  updatedOn: 2023-12-20T01:35:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60934;
+result {
+  id: 60934,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:35:34.000Z,
+  endTime: 2023-12-20T01:35:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:35:34.000Z,
+  updatedOn: 2023-12-20T01:35:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60934,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:35:34.000Z,
+  endTime: 2023-12-20T01:35:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:35:34.000Z,
+  updatedOn: 2023-12-20T01:35:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:36:00.316Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:36:20.325Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:36:40.337Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:37:00.350Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:37:20.362Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:37:40.372Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:38:00.385Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:38:20.394Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:38:40.408Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:39:00.419Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:39:20.429Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:39:40.439Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:40:00.451Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:40:20.461Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (fab5ae4f113d981eb83a): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:40:34.000Z,
+  createdOn: 2023-12-20T01:40:34.000Z
+}
+Executing (fab5ae4f113d981eb83a): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60935,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:40:34.000Z,
+  createdOn: 2023-12-20T01:40:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60935,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:40:34.000Z,
+  createdOn: 2023-12-20T01:40:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (fab5ae4f113d981eb83a): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:40:40.471Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60935,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:40:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:40:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60935,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:40:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:40:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60935,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60935,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:40:40.000Z,
+  updatedOn: 2023-12-20T01:40:40.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60935;
+result {
+  id: 60935,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:40:34.000Z,
+  endTime: 2023-12-20T01:40:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:40:34.000Z,
+  updatedOn: 2023-12-20T01:40:40.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60935,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:40:34.000Z,
+  endTime: 2023-12-20T01:40:40.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:40:34.000Z,
+  updatedOn: 2023-12-20T01:40:40.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:41:00.480Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:41:20.492Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:41:40.504Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:42:00.514Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:42:20.526Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:42:40.534Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:43:00.544Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:43:20.555Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:43:40.564Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:44:00.575Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:44:20.586Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:44:40.598Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:45:00.613Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:45:20.628Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (23e4c222fcde9e57c777): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:45:34.000Z,
+  createdOn: 2023-12-20T01:45:34.000Z
+}
+Executing (23e4c222fcde9e57c777): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60936,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:45:34.000Z,
+  createdOn: 2023-12-20T01:45:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60936,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:45:34.000Z,
+  createdOn: 2023-12-20T01:45:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (23e4c222fcde9e57c777): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:45:40.637Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60936,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:45:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:45:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60936,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:45:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:45:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60936,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60936,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:45:41.000Z,
+  updatedOn: 2023-12-20T01:45:41.000Z
+}
+Executing (default): UPDATE [tbl_job] SET [isDeleted]=@0,[errorMsg]=@1,[statusRefId]=@2,[endTime]=@3,[updatedOn]=@4 WHERE [id] = @5
+Executing (default): SELECT [id], [statusRefId], [errorMsg], [isManual], [startTime], [endTime], [createdBy], [createdOn], [updatedOn], [isDeleted] FROM [tbl_job] AS [tbl_job] WHERE [tbl_job].[id] = 60936;
+result {
+  id: 60936,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:45:34.000Z,
+  endTime: 2023-12-20T01:45:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:45:34.000Z,
+  updatedOn: 2023-12-20T01:45:41.000Z,
+  isDeleted: 0
+}
+result  {
+  id: 60936,
+  statusRefId: 3,
+  errorMsg: 'Problem while creating',
+  isManual: 0,
+  startTime: 2023-12-20T01:45:34.000Z,
+  endTime: 2023-12-20T01:45:41.000Z,
+  createdBy: null,
+  createdOn: 2023-12-20T01:45:34.000Z,
+  updatedOn: 2023-12-20T01:45:41.000Z,
+  isDeleted: 0
+}
+Into the job details cron  2023-12-20T01:46:00.648Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:46:20.660Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:46:40.672Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:47:00.683Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:47:20.697Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:47:40.712Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:48:00.724Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:48:20.736Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:48:40.747Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:49:00.758Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:49:20.765Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:49:40.776Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:50:00.788Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+Into the job details cron  2023-12-20T01:50:20.802Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  []
+jobData  []
+loginMiddleWare Url /schedule/generate/job
+Executing (d7c2f83b54b65083fd2a): BEGIN TRANSACTION;
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+Create data  {
+  isDeleted: 0,
+  id: null,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:50:34.000Z,
+  createdOn: 2023-12-20T01:50:34.000Z
+}
+Executing (d7c2f83b54b65083fd2a): INSERT INTO [tbl_job] ([statusRefId],[isManual],[startTime],[createdOn],[isDeleted]) OUTPUT INSERTED.[id],INSERTED.[statusRefId],INSERTED.[errorMsg],INSERTED.[isManual],INSERTED.[startTime],INSERTED.[endTime],INSERTED.[createdBy],INSERTED.[createdOn],INSERTED.[updatedOn],INSERTED.[isDeleted] VALUES (@0,@1,@2,@3,@4);
+result {
+  isDeleted: 0,
+  id: 60937,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:50:34.000Z,
+  createdOn: 2023-12-20T01:50:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+jobresult  {
+  isDeleted: 0,
+  id: 60937,
+  statusRefId: 1,
+  isManual: 0,
+  startTime: 2023-12-20T01:50:34.000Z,
+  createdOn: 2023-12-20T01:50:34.000Z,
+  errorMsg: null,
+  endTime: null,
+  createdBy: null,
+  updatedOn: null
+}
+Executing (d7c2f83b54b65083fd2a): COMMIT TRANSACTION;
+Into the job details cron  2023-12-20T01:50:40.815Z
+Into the getJob
+Executing (default): select top 1 * from JINDALOMS.dbo.tbl_job as tj
+                where tj.isDeleted = 0 and statusRefId = 1;
+query  [
+  {
+    id: 60937,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:50:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:50:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+jobData  [
+  {
+    id: 60937,
+    statusRefId: 1,
+    errorMsg: null,
+    isManual: 0,
+    startTime: 2023-12-20T01:50:34.000Z,
+    endTime: null,
+    createdBy: null,
+    createdOn: 2023-12-20T01:50:34.000Z,
+    updatedOn: null,
+    isDeleted: 0
+  }
+]
+Executing (default): select top 1 st.* from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+Executing (default): insert into JINDALOMS.dbo.tbl_jobDetails
+                (jobId,std_alloy,customer_name,customer_delivery_dt,cut_len,cut_len_uom,
+                    cut_len_tolerance_upper,cut_len_tolerance_lower,
+                    tool_detail,die_issued_by_ts,po_qty,po_release_status,internal_alloy,no_of_pieces,
+                    order_qty,order_qty_uom,po,po_release_dt,
+                    planned_press,profile_unit_weight_kg_m,material_code,so,so_release_dt,so_creation_dt,
+                    temper,qty_tolerance_min,qty_tolerance_max,so_line_items,zone,
+                    customer_technical_data_sheet,end_use,component_1,
+                    component_2,Requirement1_qty,requirement2_qty,order_type,plant,teco_status,createdOn,isDeleted)
+                select 60937,st.*,CURRENT_TIMESTAMP,0  
+                from SAP.dbo.ProdTable as st
+                left join JINDALOMS.dbo.tbl_jobDetails as tj
+                    on tj.isDeleted = 0 and tj.po = st.po 
+                        and tj.planned_press = st.planned_press
+                        -- and tj.material_code = st.material_code
+                        -- and tj.so = st.so and tj.component_1 = st.component_1
+                where tj.po is null 
+                    -- and tj.planned_press is null
+                    -- and tj.material_code is null and tj.so is null
+                    -- and tj.component_1 is null
+                    and st.plant = 'BF01'
+                    and st.planned_press LIKE 'PRESS%'
+                    and st.po_release_dt >= '2023-01-01'
+                order by st.po;
+dataList [ [], 0 ]
+Into the createJob
+Update Data  {
+  isDeleted: 0,
+  id: 60937,
+  errorMsg: 'Problem while creating',
+  statusRefId: 3,
+  endTime: 2023-12-20T01:50:41.000Z,
+  updatedOn: 2023-12-20T01:50:41.000Z
+}
